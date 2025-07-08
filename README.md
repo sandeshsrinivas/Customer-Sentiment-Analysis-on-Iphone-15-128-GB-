@@ -18,7 +18,9 @@ The goal of this project is to analyze customer sentiment toward the iPhone 15 1
 5. Matplotlib/Seaborn: For creating visualizations, such as sentiment distributions and word clouds.
 
 **Project Steps**
+
 **1. Data Collection (Web Scraping)**
+
 Tools: Selenium, BeautifulSoup
 
 Task: Scrape at least 300 customer reviews for the iPhone 15 128GB model.
@@ -37,7 +39,9 @@ Automate browser interactions using Selenium to navigate to Flipkart’s product
 
 Use BeautifulSoup to parse the HTML and extract reviews from multiple pages, handling pagination where necessary.
 
+
 **2. Data Cleaning and Preprocessing**
+
 Tools: Pandas
 
 Task: Clean and preprocess the scraped data.
@@ -61,6 +65,7 @@ Remove stop words (common words that do not add sentiment value).
 Perform lemmatization to convert words to their base form (e.g., "running" → "run").
 
 **3. Sentiment Analysis**
+
 Tools: TextBlob
 
 Task: Perform sentiment analysis on each review.
@@ -79,7 +84,9 @@ Negative: Polarity score < 0.1
 
 Store sentiment classification in the dataset.
 
+
 **4. Data Analysis and Insights**
+
 Tools: Pandas, Matplotlib/Seaborn
 
 Task: Perform analysis on the sentiment data and visualize the findings.
@@ -94,7 +101,9 @@ Word Cloud: Create a word cloud to visualize the most frequent terms in positive
 
 Review Length Analysis: Investigate the relationship between review length and sentiment.
 
+
 **5. Reporting**
+
 Overview: Summarize the data collection and cleaning processes.
 
 Sentiment Analysis Results: Present the sentiment distribution, average sentiment per rating, and other key findings.
@@ -103,6 +112,7 @@ Insights: Identify trends such as common issues with the product or highlights f
 Recommendations: Provide recommendations for product improvements or marketing strategies based on customer sentiment.
 
 **Connect**
+
 Feel free to reach out with any questions or feedback:
 
 Email: dsandeshsrinivas@gmail.com
